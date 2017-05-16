@@ -10,3 +10,6 @@
 .topBar{height:31px; background-color:#F7F7F7;line-height:31px;}
 .collection{background:url(../images/icons/collection.jpg) left center no-repeat; padding-left:19px; font-weight:bold;}
 .topBar a:hover{color:red;}
+/*logo*/
+.logoBar{height:85px;background-color:#1D7AD9;}
+
