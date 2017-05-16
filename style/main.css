@@ -13,3 +13,6 @@
 /*logo*/
 .logoBar{height:85px;background-color:#1D7AD9;}
 .logo{padding-left:41px;padding-top:13px;}
+/*search*/
+.search_box{width:430px;}
+.search_text{width:360px;height:35px;}
