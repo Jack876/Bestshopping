@@ -19,7 +19,7 @@
 .search_text{width:350px;height:35px;line-height:35px\9;padding:0 5px;background-color:#FFF;}
 .search_btn{width:70px;height:35px;font-size:14px;font-family:"Microrosoft Yahei","微软雅黑";background-color:#FF8C00;color:#FFF;}
 /*购物车*/
-.shopCart{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; font-size:14px; font-family:"Microrosoft Yahei","微软雅黑"; color:#FFF; line-height:35px;}
+.shopCart{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; font-size:14px; font-family:"Microrosoft Yahei","微软雅黑"; color:#FFF; line-height:35px; margin-right: 59px;}
 .shopText{ height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shopCart.jpg) 10px center no-repeat; text-indent:40px;}
-.shopNum{width: 56px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right;}
+.shopNum{width: 27px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right; padding-right:29px; }
 
