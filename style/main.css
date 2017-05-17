@@ -20,5 +20,5 @@
 .search_btn{width:70px;height:35px;font-size:14px;font-family:"Microrosoft Yahei","微软雅黑";background-color:#FF8C00;color:#FFF;}
 /*购物车*/
 .shopCart{width:145px;height:35px;background-color:#FF8C00;margin-top:23px;}
-.shopText{font-size:14px; font-family:"Microrosoft Yahei","微软雅黑"; color:#FFF; line-height:35px; height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shopCart.jpg) 10px center no-repeat;}
+.shopText{font-size:14px; font-family:"Microrosoft Yahei","微软雅黑"; color:#FFF; line-height:35px; height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shopCart.jpg) 10px center no-repeat; text-indent:40px;}
 
