@@ -21,5 +21,5 @@
 /*购物车*/
 .shopCart{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; font-size:14px; font-family:"Microrosoft Yahei","微软雅黑"; color:#FFF; line-height:35px;}
 .shopText{ height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shopCart.jpg) 10px center no-repeat; text-indent:40px;}
-.shopNum{width: 56px; height: 35px; border-left: #FF9C01 solid 1px;}
+.shopNum{width: 56px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right;}
 
