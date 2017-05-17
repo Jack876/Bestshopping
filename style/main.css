@@ -24,7 +24,7 @@
 .shopNum{width: 27px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right; padding-right:29px;}
 /*导航*/
 .navBox{height: 35px; background-color:#1369C0; color:#FFF;}
-.shopClass{width:190px; line-height:35px;/*注意，会留下后患*/}
+.shopClass{width:190px; line-height:35px;/*注意，会留下后患*/ background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/down.jpg) left center no-repeat;}
 
 
 
