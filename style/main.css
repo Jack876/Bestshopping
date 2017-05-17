@@ -26,6 +26,9 @@
 .navBox{height: 35px; background-color:#1369C0; color:#FFF;}
 .shopClass{width:190px; line-height:35px;/*注意，会留下后患*/ text-align:center;}
 .shopClass i{width:11px; height:7px; overflow:hidden; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/down.jpg) left center no-repeat; display:inline-block; margin-left:11px;}
+.nav,.shopClass{font-family:"Microrosoft Yahei","微软雅黑"; }
+.nav{line-height:35px;}
+.nav li{float:left;}
 
 
 
