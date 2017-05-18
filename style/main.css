@@ -29,7 +29,8 @@
 .nav,.shopClass{font-family:"Microrosoft Yahei","微软雅黑"; }
 .nav{line-height:35px;}
 .nav li{float:left;}
-
+.nav a{height:35px; display:inline-block; padding:0 35px; color:#FFF;}
+.nav .active{background-color:#4593FD;}
 
 
 
