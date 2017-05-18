@@ -24,13 +24,22 @@
 .shopNum{width: 27px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right; padding-right:29px;}
 /*导航*/
 .navBox{height: 35px; background-color:#1369C0; color:#FFF;}
-.shopClass{width:190px; line-height:35px;/*注意，会留下后患*/ text-align:center;}
+.shopClass{width:190px; /*注意，会留下后患*/ }
+.shopClass h3{text-align:center;line-height:35px;}
 .shopClass i{width:11px; height:7px; overflow:hidden; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/down.jpg) left center no-repeat; display:inline-block; margin-left:11px;}
 .nav,.shopClass{font-family:"Microrosoft Yahei","微软雅黑"; }
 .nav{line-height:35px;}
 .nav li{float:left;}
 .nav a{height:35px; display:inline-block; padding:0 35px; color:#FFF;}
 .nav .active{background-color:#4593FD;}
+/*商品弹出列表*/
+.shopClass_show{ background-color:#4593FD;}
+.shopClass_item{padding:14px 10px; border-bottom:#3487F2 solid 1px; border-top: #5AA1FE solid 1px;}
+.shopClass_item dt{height:22px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_sj.jpg) right center no-repeat;}
+.shopClass_item .b{/*font-family:"Microrosoft Yahei","微软雅黑"; font-size:14px; font-weight:bold;*/font:14px/1 "Microrosoft Yahei","微软雅黑"; }
+.shopClass_item a{color:#FFF;}
+.shopClass_item .aLink{width:48px; height:20px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/alink.png) left center no-repeat; display:inline-block; text-align:center; line-height:20px; text-decoration:underline;}
+
 
 
 
