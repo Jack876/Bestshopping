@@ -71,8 +71,8 @@
 .imgNum .active{background-color:#ff7700;}
 /*商品标题*/
 .shopTit{height:44px; font-family:"Microrosoft Yahei","微软雅黑";line-height:44px;}
-.shopTit h3{font-size:24px; }
-.icon{width:44px; height:44px; display:inline-block; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_icon.jpg) left top no-repeat;}
+.shopTit h3{font-size:24px; float:left;}
+.icon{width:44px; height:44px; display:inline-block; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_icon.jpg) left top no-repeat;float:left;}
 
 
 
