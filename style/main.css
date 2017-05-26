@@ -70,7 +70,7 @@
 .imgNum a{width:20px; height:5px; overflow:hidden; background-color:#fff; display:inline-block; margin:0 3px;}
 .imgNum .active{background-color:#ff7700;}
 /*商品标题*/
-.shopTit{height:44px; font-family:"Microrosoft Yahei","微软雅黑";line-height:44px;}
+.shopTit{height:44px; font-family:"Microrosoft Yahei","微软雅黑";line-height:44px; margin-bottom:15px;}
 .shopTit h3{font-size:24px; float:left; font-weight:normal; padding-left:15px;}
 .icon{width:44px; height:44px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_icon.jpg) left top no-repeat;float:left;}
 .more{float:right; font-family:"宋体"；}
