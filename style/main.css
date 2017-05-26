@@ -76,6 +76,8 @@
 .more{float:right; font-family:"宋体"；}
 .more:hover{text-decoration:underline; color:#00F;}
 /*商品列表*/
+.shopList .leftArea{width:190px;}
+.shopList .rightArea{width:810px;}
 
 
 
