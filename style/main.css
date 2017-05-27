@@ -73,6 +73,9 @@
 .banner_big img{width:810px; height:326px;}
 
 .banner_big .imgBox{width:1620px; height:326px;}
+.banner_sm,
+.banner_sm img{width:190px; height:400px;}
+.banner_sm .imgBox{width:380px; height:400px;}
 /*商品标题*/
 .shopTit{height:44px; font-family:"Microrosoft Yahei","微软雅黑";line-height:44px; margin-bottom:15px;}
 .shopTit h3{font-size:24px; float:left; font-weight:normal; padding-left:15px;}
@@ -82,7 +85,8 @@
 /*商品列表*/
 .shopList .leftArea{width:190px;}
 .shopList .rightArea{width:810px;}
-
+/*商品列表-右侧*/
+.shop_item{width:202px; border-right: #999 solid 1px;}
 
 
 
