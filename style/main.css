@@ -84,9 +84,9 @@
 .more:hover{text-decoration:underline; color:#00F;}
 /*商品列表*/
 .shopList .leftArea{width:190px;}
-.shopList .rightArea{width:810px;}
+.shopList .rightArea{width:808px; border: #999 solid 1px; border-bottom:#FF7201 solid 3px;}
 /*商品列表-右侧*/
-.shop_item{width:202px; border-right: #999 solid 1px;}
+.shop_item{width:202px; border-right: #999 solid 1px; border-bottom: #999 solid 1px; height:279px;}
 
 
 
