@@ -106,10 +106,11 @@
 .shopItem_text h3{font-family:"Microsoft YaHei","微软雅黑"; font-size:16px; font-weight:normal; color:#181818; line-height:30px;}
 
 /*底部*/
-.footer{ text-align:center; background-color:#D4D4D4; line-height:24px; padding:50px 0;}
+.footer{ text-align:center; background-color:#D4D4D4; line-height:24px; padding:50px 0; }
 .footer i{ font-style:normal; margin:0 5px;}
 .footer a{ color:#000;}
 .footer a:hover{color:#F60;}
 .web{padding-top:30px;}
 .web img{margin:0 12px;}
+.hr_25{height:25px;}
 
