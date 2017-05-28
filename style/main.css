@@ -38,8 +38,8 @@
 
 /*商品弹出列表*/
 .shopClass_show{background-color:#4593FD; position:absolute; left:0; top:35px; width:100%;}
-.shopClass_item{padding:14px 10px; border-bottom:#3487F2 solid 1px; border-top: #5AA1FE solid 1px;}
-.shopClass_item dt{height:22px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_sj.jpg) right center no-repeat;}
+.shopClass_item{padding:13px 10px; border-bottom:#3487F2 solid 1px; border-top: #5AA1FE solid 1px; line-height:16px;}
+.shopClass_item dt{height:21px; line-height:1; overflow:hidden; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_sj.jpg) right center no-repeat;}
 .shopClass_item .b{/*font-family:"Microsoft Yahei","微软雅黑"; font-size:14px; font-weight:bold;*/font:14px/1 "Microsoft YaHei","微软雅黑"; }
 .shopClass_item a{color:#FFF;}
 .shopClass_item a:hover{text-decoration: underline;}
