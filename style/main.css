@@ -24,6 +24,7 @@
 .shopCart{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; font-size:14px; font-family:"Microsoft YaHei","微软雅黑"; color:#FFF; line-height:35px; margin-right: 59px;}
 .shopText{ height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shopCart.jpg) 10px center no-repeat; text-indent:40px;}
 .shopNum{width: 27px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right; padding-right:29px;}
+
 /*导航*/
 .navBox{height: 35px; background-color:#1369C0; color:#FFF;}
 .shopClass{width:190px; position:relative;}
@@ -34,11 +35,12 @@
 .nav li{float:left;}
 .nav a{height:35px; display:inline-block; padding:0 35px; color:#FFF;}
 .nav .active{background-color:#4593FD;}
+
 /*商品弹出列表*/
 .shopClass_show{background-color:#4593FD; position:absolute; left:0; top:35px; width:100%;}
 .shopClass_item{padding:14px 10px; border-bottom:#3487F2 solid 1px; border-top: #5AA1FE solid 1px;}
 .shopClass_item dt{height:22px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_sj.jpg) right center no-repeat;}
-.shopClass_item .b{/*font-family:"Microrosoft Yahei","微软雅黑"; font-size:14px; font-weight:bold;*/font:14px/1 "Microsoft YaHei","微软雅黑"; }
+.shopClass_item .b{/*font-family:"Microsoft Yahei","微软雅黑"; font-size:14px; font-weight:bold;*/font:14px/1 "Microsoft YaHei","微软雅黑"; }
 .shopClass_item a{color:#FFF;}
 .shopClass_item a:hover{text-decoration: underline;}
 .shopClass_item .aLink{width:48px; height:20px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/alink.png) left center no-repeat; display:inline-block; text-align:center; line-height:20px; text-decoration:underline;}
@@ -62,7 +64,7 @@
 
 /*banner部分*/
 .banner{ margin-bottom:15px;}
-.banner_bar{float:left; position:relative; overflow:hidden;}
+.banner_bar{float:right; position:relative; overflow:hidden;}
 .imgBox{position:absolute; left:0; top:0;}
 .imgBox li{float:left;}
 .imgBox img{display:block;}
