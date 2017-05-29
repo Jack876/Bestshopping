@@ -64,7 +64,7 @@
 
 /*banner部分*/
 .banner{ margin-bottom:15px;}
-.banner_bar{float:right; position:relative; }
+.banner_bar{float:right; position:relative; overflow:hidden; }
 .imgBox{position:absolute; left:0; top:0;}
 .imgBox li{float:left;}
 .imgBox img{display:block;}
