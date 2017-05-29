@@ -78,6 +78,13 @@
 .banner_sm,
 .banner_sm img{width:190px; height:400px;}
 .banner_sm .imgBox{width:380px; height:400px;}
+
+/*动态箭头*/
+.arrow { cursor: pointer; padding-bottom:5px;  line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 180px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#prev { left: 20px;}
+#next { right: 20px;}
+
 /*商品标题*/
 .shopTit{height:44px; font-family:"Microsoft YaHei","微软雅黑";line-height:44px; margin-bottom:15px;}
 .shopTit h3{font-size:24px; float:left; font-weight:normal; padding-left:15px;}
