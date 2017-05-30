@@ -10,11 +10,8 @@ function animate(offset){
 	//list.setAttribute("left","-810px");
 	//alert(list.offsetLeft);
 	alert("old"+list.style.left);
-
-	var newleft = parseInt(list.style.left) + offset;
-	list.style.left = newleft +"px";
+	list.style.left = parseInt(list.style.left) + offset + "px";
 	alert("new"+list.style.left);
-	// list.offsetLeft=-810;
 	//alert("new"+list.offsetLeft);
 	//list.style.left = "-810px";
 	//alert(list.offsetLeft);
