@@ -1,14 +1,11 @@
 /*var container = document.getElementById('container');*/
 
-var buttons = document.getElementById("button").getElementsByTagName("a");
+var buttons = document.getElementById("buttons").getElementsByTagName("a");
 var next = document.getElementById('next');
 var list = document.getElementById('list');
 var prev = document.getElementById('prev');
 
-alert(buttons);
-
 function animate(offset){
-	//list.setAttribute("left","-810px");
 	//alert(list.offsetLeft);
 	//alert("old"+list.style.left);
 	list.style.left = parseInt(list.style.left) + offset + "px";
@@ -24,11 +21,12 @@ function animate(offset){
 		//parseInt(list.style.left) = -2430;
 		list.style.left = -2430 + "px";
 		}
-	}
-	
-	
-	
+	}	
 
+prev.onclick = function (){animate(-810)};
+next.onclick = function (){animate(810)};
+
+	
 /*var index = 1;
 function showButton(){
 	buttons[index-1].className = "active";
@@ -45,11 +43,5 @@ next.onclick = function(){
 	animate(810)
 	}
 	*/
-
-/*prev.onclick = function(){
-	list.style.left = parseInt(list.style.left) + 600 + 'px'
-	}*/
-	
-	//  parseInt(list.style.left)   alert("panda!")
 
 // JavaScript Document

@@ -70,7 +70,7 @@
 .imgBox li{float:left; display: inline-block;}
 .imgBox img{display:block;}
 .imgNum{position:absolute; left:0; bottom:15px; width:100%; text-align:center;}
-.imgNum a{width:20px; height:5px; overflow:hidden; background-color:#fff; display:inline-block; margin:0 3px;}
+.imgNum a{width:20px; height:5px; overflow:hidden; background-color: #666; border:1px solid #333; display:inline-block; margin:0 3px;}
 .imgNum .active{background-color:#ff7700;}
 .banner_big,
 .banner_big img{width:810px; height:326px;}
