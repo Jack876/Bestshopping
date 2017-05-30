@@ -1,7 +1,6 @@
-/*var container = document.getElementById('container');
+/*var container = document.getElementById('container');*/
 
-var buttons = document.getElementById('buttons').getElementsByTagName('span');
-*/
+var buttons = document.getElementsByClassName("imgNum");
 var next = document.getElementById('next');
 var list = document.getElementById('list');
 var prev = document.getElementById('prev');
@@ -25,7 +24,14 @@ function animate(offset){
 		}
 	}
 
+var index = 1;
+function showButton(){
+	buttons[index-1].className = "active";
+	}
+
 prev.onclick = function(){
+	index -= 1;
+	showButton();
 	animate(-810)
 	}
 next.onclick = function(){
@@ -34,10 +40,7 @@ next.onclick = function(){
 	animate(810)
 	}
 	
-var index = 1;
-function showButton(){
-	buttons[index-1].className = "on";
-	}
+
 /*prev.onclick = function(){
 	list.style.left = parseInt(list.style.left) + 600 + 'px'
 	}*/
