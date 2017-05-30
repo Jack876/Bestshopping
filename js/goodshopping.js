@@ -1,9 +1,11 @@
 /*var container = document.getElementById('container');*/
 
-var buttons = document.getElementsByClassName("imgNum");
+var buttons = document.getElementById("button").getElementsByTagName("a");
 var next = document.getElementById('next');
 var list = document.getElementById('list');
 var prev = document.getElementById('prev');
+
+alert(buttons);
 
 function animate(offset){
 	//list.setAttribute("left","-810px");
@@ -23,8 +25,11 @@ function animate(offset){
 		list.style.left = -2430 + "px";
 		}
 	}
+	
+	
+	
 
-var index = 1;
+/*var index = 1;
 function showButton(){
 	buttons[index-1].className = "active";
 	}
@@ -39,17 +44,12 @@ next.onclick = function(){
 	showButton();
 	animate(810)
 	}
-	
+	*/
 
 /*prev.onclick = function(){
 	list.style.left = parseInt(list.style.left) + 600 + 'px'
 	}*/
 	
 	//  parseInt(list.style.left)   alert("panda!")
-
-
-
-
-
 
 // JavaScript Document
