@@ -9,7 +9,7 @@ function animate(offset){
 	//alert(list.offsetLeft);
 	//alert("old"+list.style.left);
 	list.style.left = parseInt(list.style.left) + offset + "px";
-	alert("new"+list.style.left);
+	//alert("new"+list.style.left);
 	//alert("new"+list.offsetLeft);
 	//list.style.left = "-810px";
 	//alert(list.offsetLeft);
@@ -27,24 +27,50 @@ function animate(offset){
 //next.onclick = function (){animate(810)};
 
 var index = 1;
-function showButton(){
-	for (var i = 0; i < buttons.length; i++){
+
+function showButton() {
+	/*for (var i = 0; i < buttons.length; i++) {
 		if (buttons[i].className == "active"){
 			buttons[i].className = "";
 			break;
 			}
-		}
+		}*/
 	buttons[index-1].className = "active";
-	}
+}
+
+
+/*function showButton() {
+                for (var i = 0; i < buttons.length; i++) {
+                    if( buttons[i].className == 'on'){
+                        buttons[i].className = '';
+                        break;
+                    }
+                }
+                buttons[index - 1].className = 'on';
+}*/
+
+
+
 
 prev.onclick = function(){
-	index -= 1;
+	if(index = 4){
+		index = 1;
+		}
+	else {
+		index += 1;
+		}
+	
 	showButton();
 	animate(-810)
 	}
 next.onclick = function(){
-	index += 1;
-	showButton();
+	if(index = 1 ){
+		index = 4;
+		}
+	else {
+		index -= 1;
+		}
+		showButton();
 	animate(810)
 	}
 	
