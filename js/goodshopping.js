@@ -1,18 +1,28 @@
 /*var container = document.getElementById('container');
 
 var buttons = document.getElementById('buttons').getElementsByTagName('span');
-var prev = document.getElementById('prev');
+
 var next = document.getElementById('next');*/
 var list = document.getElementById('list');
-function moveleft(){
+var prev = document.getElementById('prev');
+
+function animate(offset){
 	//list.setAttribute("left","-810px");
 	//alert(list.offsetLeft);
-	list.style.marginLeft = list.style.marginLeft - 810 + "px";
+	alert("old"+list.style.left);
+
+	var newleft = parseInt(list.style.left) + offset;
+	list.style.marginleft = newleft +"px";
+	alert("new"+list.style.left);
 	// list.offsetLeft=-810;
-	alert("new"+list.offsetLeft);
+	//alert("new"+list.offsetLeft);
 	//list.style.left = "-810px";
 	//alert(list.offsetLeft);
 	//list.style.left = "-810px"
+	}
+
+prev.onclick = function(){
+	animate(-810)
 	}
 /*prev.onclick = function(){
 	list.style.left = parseInt(list.style.left) + 600 + 'px'
