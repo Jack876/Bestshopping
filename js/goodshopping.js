@@ -16,6 +16,16 @@ function animate(offset){
 	//list.style.left = "-810px";
 	//alert(list.offsetLeft);
 	//list.style.left = "-810px"
+	if (parseInt(list.style.left) < -2430 ) {
+		parseInt(list.style.left) = 0;
+		}
+	if (parseInt(list.style.left) > 0 ) {
+		parseInt(list.style.left) = -2430;
+		}
+	
+	
+	
+	
 	}
 
 prev.onclick = function(){
