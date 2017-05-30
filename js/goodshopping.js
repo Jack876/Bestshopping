@@ -8,7 +8,7 @@ function moveleft(){
 	//list.setAttribute("left","-810px");
 	alert(list.offsetLeft);
 	//list.offsetLeft ++ /*= list.offsetLeft - 810*/;
-	list.offsetLeft=-810;
+	// list.offsetLeft=-810;
 	alert("new"+list.offsetLeft);
 	//list.style.left = "-810px";
 	//alert(list.offsetLeft);
