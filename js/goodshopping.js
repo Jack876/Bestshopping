@@ -1,8 +1,8 @@
 /*var container = document.getElementById('container');
 
 var buttons = document.getElementById('buttons').getElementsByTagName('span');
-
-var next = document.getElementById('next');*/
+*/
+var next = document.getElementById('next');
 var list = document.getElementById('list');
 var prev = document.getElementById('prev');
 
@@ -12,7 +12,7 @@ function animate(offset){
 	alert("old"+list.style.left);
 
 	var newleft = parseInt(list.style.left) + offset;
-	list.style.marginleft = newleft +"px";
+	list.style.left = newleft +"px";
 	alert("new"+list.style.left);
 	// list.offsetLeft=-810;
 	//alert("new"+list.offsetLeft);
@@ -23,6 +23,9 @@ function animate(offset){
 
 prev.onclick = function(){
 	animate(-810)
+	}
+next.onclick = function(){
+	animate(810)
 	}
 /*prev.onclick = function(){
 	list.style.left = parseInt(list.style.left) + 600 + 'px'
