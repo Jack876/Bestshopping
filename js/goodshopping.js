@@ -9,7 +9,7 @@ var prev = document.getElementById('prev');
 function animate(offset){
 	//list.setAttribute("left","-810px");
 	//alert(list.offsetLeft);
-	alert("old"+list.style.left);
+	//alert("old"+list.style.left);
 	list.style.left = parseInt(list.style.left) + offset + "px";
 	alert("new"+list.style.left);
 	//alert("new"+list.offsetLeft);
@@ -17,10 +17,11 @@ function animate(offset){
 	//alert(list.offsetLeft);
 	//list.style.left = "-810px"
 	if (parseInt(list.style.left) < -2430 ) {
-		parseInt(list.style.left) = 0;
+		list.style.left = 0 + "px";
 		}
 	if (parseInt(list.style.left) > 0 ) {
-		parseInt(list.style.left) = -2430;
+		//parseInt(list.style.left) = -2430;
+		list.style.left = -2430 + "px";
 		}
 	
 	
