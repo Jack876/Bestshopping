@@ -23,12 +23,17 @@ function animate(offset){
 		}
 	}	
 
-prev.onclick = function (){animate(-810)};
-next.onclick = function (){animate(810)};
+//prev.onclick = function (){animate(-810)};
+//next.onclick = function (){animate(810)};
 
-	
-/*var index = 1;
+var index = 1;
 function showButton(){
+	for (var i = 0; i < buttons.length; i++){
+		if (buttons[i].className == "active"){
+			buttons[i].className = "";
+			break;
+			}
+		}
 	buttons[index-1].className = "active";
 	}
 
@@ -42,6 +47,6 @@ next.onclick = function(){
 	showButton();
 	animate(810)
 	}
-	*/
+	
 
 // JavaScript Document
