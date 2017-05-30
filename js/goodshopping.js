@@ -23,17 +23,20 @@ function animate(offset){
 		//parseInt(list.style.left) = -2430;
 		list.style.left = -2430 + "px";
 		}
-	
-	
-	
-	
 	}
 
 prev.onclick = function(){
 	animate(-810)
 	}
 next.onclick = function(){
+	index += 1;
+	showButton();
 	animate(810)
+	}
+	
+var index = 1;
+function showButton(){
+	buttons[index-1].className = "on";
 	}
 /*prev.onclick = function(){
 	list.style.left = parseInt(list.style.left) + 600 + 'px'
