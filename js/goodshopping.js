@@ -7,7 +7,7 @@ var list = document.getElementById('list');
 function moveleft(){
 	//list.setAttribute("left","-810px");
 	//alert(list.offsetLeft);
-	list.style.marginLeft = list.offsetLeft - 810*/;
+	list.style.marginLeft = list.style.marginLeft - 810 */;
 	// list.offsetLeft=-810;
 	alert("new"+list.offsetLeft);
 	//list.style.left = "-810px";
