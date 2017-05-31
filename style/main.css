@@ -29,7 +29,7 @@
 .navBox{height: 35px; background-color:#1369C0; color:#FFF;}
 .shopClass{width:190px; position:relative;}
 .shopClass h3{text-align:center;line-height:35px;}
-.shopClass i{width:11px; height:7px; overflow:hidden; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/down.jpg) left center no-repeat; display:inline-block; margin-left:11px;}
+.shopClass i{width:11px; height:7px; overflow:hidden; background:url(../images/icons/down.jpg) left center no-repeat; display:inline-block; margin-left:11px;}
 .nav,.shopClass h3{font-family:"Microsoft YaHei","微软雅黑"; }
 .nav{line-height:35px;}
 .nav li{float:left;}
@@ -39,11 +39,11 @@
 /*商品弹出列表*/
 .shopClass_show{background-color:#4593FD; position:absolute; left:0; top:35px; width:100%; padding-bottom:1px;}
 .shopClass_item{padding:13px 10px; border-bottom:#3487F2 solid 1px; border-top: #5AA1FE solid 1px; line-height:16px;}
-.shopClass_item dt{height:21px; line-height:1; overflow:hidden; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_sj.jpg) right center no-repeat;}
+.shopClass_item dt{height:21px; line-height:1; overflow:hidden; background:url(../images/icons/shop_sj.jpg) right center no-repeat;}
 .shopClass_item .b{/*font-family:"Microsoft Yahei","微软雅黑"; font-size:14px; font-weight:bold;*/font:14px/1 "Microsoft YaHei","微软雅黑"; }
 .shopClass_item a{color:#FFF;}
 .shopClass_item a:hover{text-decoration: underline;}
-.shopClass_item .aLink{width:48px; height:20px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/alink.png) left center no-repeat; display:inline-block; text-align:center; line-height:20px; text-decoration:underline;}
+.shopClass_item .aLink{width:48px; height:20px; background: url(../images/icons/alink.png) left center no-repeat; display:inline-block; text-align:center; line-height:20px; text-decoration:underline;}
 
 /*shopClass_item active 状态*/
 .shopClass_active{background-color:#FFF; border-left:#4593fd solid 1px;}
@@ -60,7 +60,7 @@
 .shopList_item dd a{margin-right:12px;}
 .shopList_links{padding:15px 0;}
 .shopList_links a{color:#FFF; background-color:#2785E6; height:26px; line-height:26px; font-size:12px; display:inline-block; padding:0 14px 0 8px; margin-right:10px;}
-.shopList_links span{width:11px; height:7px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_sj.jpg) left center no-repeat; display:inline-block; margin-left:7px;}
+.shopList_links span{width:11px; height:7px; background: url(../images/icons/shop_sj.jpg) left center no-repeat; display:inline-block; margin-left:7px;}
 
 /*banner部分*/
 .banner{ margin-bottom:15px;}
