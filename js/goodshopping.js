@@ -76,5 +76,9 @@ next.onclick = function(){
 	animate(810)
 	}
 	
-
+for (var i = 0; i < buttons.length; i++){
+	buttons[i].onclick = function(){
+		var myindex = this.getAttribute('index');
+		}
+	}
 // JavaScript Document
