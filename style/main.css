@@ -22,7 +22,7 @@
 .search_btn{width:70px;height:35px;font-size:14px;font-family:"Microsoft YaHei","微软雅黑";background-color:#FF8C00;color:#FFF;}
 /*购物车*/
 .shopCart{width:145px;height:35px;background-color:#FF8C00;margin-top:23px; font-size:14px; font-family:"Microsoft YaHei","微软雅黑"; color:#FFF; line-height:35px; margin-right: 59px; display:inline;}
-.shopText{ height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shopCart.jpg) 10px center no-repeat; text-indent:40px;}
+.shopText{ height:100%; width::87px; border-right:#E27A00 solid 1px; background:url(../../../%E6%9C%AA%E5%91%BD%E5%90%8D%E7%AB%99%E7%82%B9%202/shopCart.jpg) 10px center no-repeat; text-indent:40px;}
 .shopNum{width: 27px; height: 35px; border-left: #FF9C01 solid 1px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shanjiao.jpg) 33px center no-repeat; text-align: right; padding-right:29px;}
 
 /*导航*/
@@ -90,7 +90,9 @@
 /*商品标题*/
 .shopTit{height:44px; font-family:"Microsoft YaHei","微软雅黑";line-height:44px; margin-bottom:15px;}
 .shopTit h3{font-size:24px; float:left; font-weight:normal; padding-left:15px;}
-.icon{width:44px; height:44px; background:url(file:///d|/Documents/GitHub/Goodshopping/images/icons/shop_icon.jpg) left top no-repeat;float:left;}
+.icon{width:44px; height:44px; background:url(../images/icons/shop_icon.jpg)
+left top no-repeat;float:left;}
+
 .more{float:right; font-family:"宋体"；}
 .more:hover{text-decoration:underline; color:#00F;}
 /*商品列表*/
