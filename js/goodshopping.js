@@ -26,16 +26,17 @@ function animate(offset){
 //prev.onclick = function (){animate(-810)};
 //next.onclick = function (){animate(810)};
 
-var index = 1;
+ var index = 1;
 
 function showButton() {
-	/*for (var i = 0; i < buttons.length; i++) {
-		if (buttons[i].className == "active"){
+	for (var i = 0; i < buttons.length; i++) {
+		
 			buttons[i].className = "";
-			break;
-			}
-		}*/
+			
+			
+	}
 	buttons[index-1].className = "active";
+	//alert(buttons[index-1].className);
 }
 
 
@@ -47,30 +48,31 @@ function showButton() {
                     }
                 }
                 buttons[index - 1].className = 'on';
-}*/
-
+}
+*/
 
 
 
 prev.onclick = function(){
-	if(index = 4){
+	if(index == 4){
 		index = 1;
 		}
 	else {
 		index += 1;
 		}
-	
+	//alert(index);
 	showButton();
 	animate(-810)
 	}
 next.onclick = function(){
-	if(index = 1 ){
+	if(index == 1 ){
 		index = 4;
 		}
 	else {
 		index -= 1;
 		}
-		showButton();
+	//alert(index);
+	showButton();
 	animate(810)
 	}
 	
