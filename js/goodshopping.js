@@ -78,7 +78,10 @@ next.onclick = function(){
 	
 for (var i = 0; i < buttons.length; i++){
 	buttons[i].onclick = function(){
-		var myindex = this.getAttribute('index');
+		var myindex = parseInt(this.getAttribute('index'));
+		var ossset =  (myindex - index);
+		index= myindex;
+		animate(offset)
 		}
 	}
 // JavaScript Document
