@@ -126,4 +126,8 @@ left top no-repeat;float:left;}
 .web{padding-top:30px;}
 .web img{margin:0 12px;}
 .hr_25{height:25px;}
+.appstore,
+.socialmedia{display:inline-block;}
+.appstore{ padding-right: 8px; border-right:#666 dotted 1px;}
+.socialmedia{padding-left:5px;}
 
