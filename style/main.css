@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*公用*/
-.comWidth{width:1009px; margin-left:auto;margin-right:auto;}
+.comWidth{width:1010px; margin-left:auto;margin-right:auto;}
 .leftArea{float:left;}
 .rightArea{float:right;}
 .hide{display:none;}
@@ -29,7 +29,7 @@
 
 /*导航*/
 .navBox{height: 35px; background-color:#1369C0; color:#FFF;}
-.shopClass{width:199px; position:relative;}
+.shopClass{width:200px; position:relative;}
 .shopClass h3{text-align:center;line-height:35px;}
 .shopClass i{width:11px; height:7px; overflow:hidden; background:url(../images/icons/down.jpg) left center no-repeat; display:inline-block; margin-left:11px;}
 .nav,.shopClass h3{font-family:"Microsoft YaHei","微软雅黑"; }
@@ -83,7 +83,7 @@
 .banner_sm .imgBox{width:380px; height:400px;}
 
 /*动态箭头*/
-.arrow { cursor: pointer; padding-bottom:5px;  line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 180px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow { cursor: pointer; padding-bottom:5px;  line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 150px; background-color: RGBA(0,0,0,.3); color: #fff;}
 .arrow:hover { background-color: RGBA(0,0,0,.7);}
 #prev { left: 20px;}
 #next { right: 20px;}
@@ -95,11 +95,12 @@
 .icon{width:44px; height:44px; background:url(../images/icons/shop_icon.jpg)
 left top no-repeat;float:left;}
 
-.more{float:right; font-family:"宋体"；}
+.more{font-size:15px;float:right; font-family:"宋体"；}
 .more:hover{text-decoration:underline; color:#00F;}
 /*商品列表*/
 .shopList .leftArea{width:190px;}
 .shopList .rightArea{width:808px; border: #999 solid 1px; border-bottom:#FF7201 solid 3px; height:396px; overflow:hidden;}
+
 /*商品列表-右侧*/
 .shopList{margin-bottom:15px;}
 .shopList_top, 
@@ -109,6 +110,13 @@ left top no-repeat;float:left;}
 .shop_img img{width: 100%; height:218px; display:block;}
 .shop_item h3{font-size:16px;}
 .shop_item p{font-size:14px; color:#FF7300; line-height:21px;}
+
+
+
+/*新增加的*/
+.new-shop_item{width:252px; height:315px; /*display:inline-block;*/ text-align: center; float:left;}
+
+
 
 /*商品列表-小*/
 .shopItem_sm{ width:202px; border-right: #999 solid 1px; height:116px; float:left;}
