@@ -14,7 +14,11 @@
 .topBar a:hover{color:red;}
 /*logo*/
 .logoBar{height:85px;background-color:#1D7AD9;}
-.logo{padding-left:41px;padding-top:13px;}
+.logo{padding-left:0;padding-top:0;}
+
+.logoword{ height:85px; width:140px; background-color: #3FF;  }
+.logoword p{ margin-top:29px; font-family:"Monotype Corsiva"; font-size:27px; color:#F90; }
+
 
 /*search*/
 .search_box{width:430px;padding-top:23px;padding-left:135px;}
@@ -51,7 +55,7 @@
 
 .shopClass_item a{color:#FFF;}
 .shopClass_item a:hover{text-decoration: underline;}
-.shopClass_item .aLink{width:68px; height:20px; font-size:14px; background: url(../images/icons/alink.png) left center no-repeat; display:inline-block; text-align:center; line-height:20px; text-decoration:underline;}
+.shopClass_item .aLink{width:74px; height:22px; font-size:14px; background: url(../images/icons/alink.png) left center no-repeat; display:inline-block; text-align:center; line-height:20px; text-decoration:underline;}
 
 /*shopClass_item active 状态*/
 .shopClass_active{background-color:#FFF; border-left:#4593fd solid 1px;}
