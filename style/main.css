@@ -16,8 +16,8 @@
 .logoBar{height:85px;background-color:#1D7AD9;}
 .logo{padding-left:0;padding-top:0;}
 
-.logoword{ height:85px; width:140px; background-color: #3FF;  }
-.logoword p{ margin-top:29px; font-family:"Monotype Corsiva"; font-size:27px; color:#F90; }
+.logoword{ height:85px; width:136px; background-color: #3CF;  }
+.logoword p{ margin-top:13px; margin-left:12px;font-family:"Monotype Corsiva"; font-size:31px; color:#F90; }
 
 
 /*search*/
