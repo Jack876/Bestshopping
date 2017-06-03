@@ -89,8 +89,8 @@
 
 .banner_big .imgBox{width:3240px; height:400px/*326px*/;}
 .banner_sm,
-.banner_sm img{width:190px; height:400px;}
-.banner_sm .imgBox{width:380px; height:400px;}
+.banner_sm img{width:300px; height:400px;}
+.banner_sm .imgBox{width:900px; height:400px;}
 
 /*动态箭头*/
 .arrow { cursor: pointer; padding-bottom:5px;  line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 150px; background-color: RGBA(0,0,0,.3); color: #fff;}
@@ -107,12 +107,13 @@ left top no-repeat;float:left;}
 
 .more{font-size:15px;float:right; font-family:"宋体"；}
 .more:hover{text-decoration:underline; color:#00F;}
+
 /*商品列表*/
-.shopList .leftArea{width:190px;}
-.shopList .rightArea{width:808px; border: #999 solid 1px; border-bottom:#FF7201 solid 3px; height:396px; overflow:hidden;}
+.shopList .leftArea{width:400px; height:520px;}
+.shopList .rightArea{width:600px; border: #999 solid 1px; border-bottom:#FF7201 solid 3px; height:550px; overflow:hidden;}
 
 /*商品列表-右侧*/
-.shopList{margin-bottom:15px;}
+.shopList{margin-bottom:15px; border: #999 solid 1px;}
 .shopList_top, 
 .shopList_sm{margin-right:-4px;}
 .shop_item{width:202px; border-right: #999 solid 1px; border-bottom: #999 solid 1px; height:279px;  text-align: center;font-family:"Microsoft YaHei","微软雅黑"; float:left;}
