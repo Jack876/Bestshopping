@@ -117,10 +117,10 @@ left top no-repeat;float:left;}
 .shopList_top, 
 .shopList_sm{margin-right:-4px;}
 .shop_item{width:300px; border-right: #999 solid 1px; border-bottom: #999 solid 1px; height:349px;  text-align: center;font-family:"Microsoft YaHei","微软雅黑"; float:left;}
-.shop_img{height:218px;}
-.shop_img img{width: 100%; height:218px; display:block;}
-.shop_item h3{font-size:16px;}
-.shop_item p{font-size:14px; color:#FF7300; line-height:21px;}
+.shop_img{height:290px;}
+.shop_img img{width: 100%; height:290px; display:block;}
+.shop_item h3{font-size:16px;color:#FF7300; line-height:21px;}
+
 
 /*新增加的*/
 .new-shop_item{width:252px; height:315px; /*display:inline-block;*/ text-align: center; float:left;}
