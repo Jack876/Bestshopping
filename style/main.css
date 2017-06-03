@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /*公用*/
+.body{background-color:#CCC;}
 .comWidth{width:1010px; margin-left:auto;margin-right:auto;}
 .leftArea{float:left;}
 .rightArea{float:right;}
@@ -125,6 +126,7 @@ left top no-repeat;float:left;}
 .shop_img{height:290px;}
 .shop_img img{width: 100%; height:290px; display:block;}
 .shop_item h3 { margin-top:5px; margin-bottom:5px; font-size:16px;color:#FF7300; line-height:21px;}
+.shop_item h4 {font-size:14px;color:#39F; }
 
 
 /*新增加的*/
@@ -136,9 +138,9 @@ left top no-repeat;float:left;}
 
 .shopItem_smImg{width:200px; height:170px; text-align:center; float:left;}
 .shopItem_smImg img{width:200px; height:170px;}
-.shopItem_text{ width:200px; height:29px;float:left; text-align:center;}
+.shopItem_text{ width:200px; height:29px;float:left; text-align:center; }
 .shopItem_text p{color:#ff7300;}
-.shopItem_text h3{font-family:"Microsoft YaHei","微软雅黑"; font-size:16px; font-weight:normal; color:#181818; line-height:30px;}
+.shopItem_text h3{font-family:"Microsoft YaHei","微软雅黑"; font-size:16px; font-weight:normal; color:#0CF; line-height:30px;}
 
 /*底部*/
 .footer{ font-size:15px; text-align:center; background-color:#D4D4D4; line-height:24px; padding:50px 0; }
