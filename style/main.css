@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*公用*/
-.body{background-color:#CCC;}
+
 .comWidth{width:1010px; margin-left:auto;margin-right:auto;}
 .leftArea{float:left;}
 .rightArea{float:right;}
@@ -116,7 +116,9 @@ left top no-repeat;float:left;}
 
 
 /*商品列表-右侧*/
-.shopList{margin-bottom:15px; border-top: #FF7201 solid 2px;}
+.shopList{margin-bottom:15px; border-top: #0CF solid 2px;}
+.FlashshopList{border-top: #F90 solid 2px;}
+
 .shopList_top, 
 .shopList_sm{margin-right:-4px;}
 
@@ -143,7 +145,7 @@ left top no-repeat;float:left;}
 .shopItem_text h3{font-family:"Microsoft YaHei","微软雅黑"; font-size:16px; font-weight:normal; color:#0CF; line-height:30px;}
 
 /*底部*/
-.footer{ font-size:15px; text-align:center; background-color:#D4D4D4; line-height:24px; padding:50px 0; }
+.footer{ font-size:15px; text-align:center; background-color:#D4D4D4; line-height:24px; padding:30px 0; }
 .footer i{ font-style:normal; margin:0 5px;}
 .footer a{ color:#000;}
 .footer a:hover{color:#F60;}
