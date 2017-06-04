@@ -5,10 +5,49 @@ var list = document.getElementById('list');
 var prev = document.getElementById('prev');
 
 
-var smpics = document.getElementById("smallpics");
+//var smpics = document.getElementById("smallpics");
 var smnext = document.getElementById('sm-next');
-var smlist = document.getElementById('list');
+var smlist = document.getElementById('smlist');
 var smprev = document.getElementById('sm-prev');
+
+smprev.onclick = function prev (){
+	
+	if (parseInt(smlist.style.left) <= -800){
+		smlist.style.left = "0";
+		}
+		else {
+			smlist.style.left = parseInt(smlist.style.left) - 400 + "px";
+			}
+	}
+	
+smnext.onclick = function snext(){
+	if (parseInt(smlist.style.left) >= 0){
+		smlist.style.left = "-800px";
+		}
+		else {
+			smlist.style.left = parseInt(smlist.style.left) + 400 + "px";		
+			}
+	
+	}
+	
+function snext(){
+	if (parseInt(smlist.style.left) >= 0){
+		smlist.style.left = "-800px";
+		}
+		else {
+			smlist.style.left = parseInt(smlist.style.left) + 400 + "px";		
+			}
+	}
+
+//function snext(){alert('哈哈');}
+setInterval(snext,3000); 
+/*function sayHi(msg){
+    alert(msg);
+}*/
+
+// 每隔5秒钟就弹出提示信息"欢迎来到CodePlayer"。
+//setInterval('sayHi("欢迎来到CodePlayer");', 5000);
+
 
 function animate(offset){
 	//alert(list.offsetLeft);
