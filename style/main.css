@@ -85,11 +85,11 @@
 .imgNum .active{background-color:#ff7700;}
 .banner_big,
 .banner_big img{width:810px; height:400px;}
-.banner_big .top-imgBox{width:3240px; height:400px/*326px*/;}
+.banner_big .top-imgBox{width:3240px; height:400px;}
 
 /*第1部分的动态箭头*/
 .arrow, .sm-arrow { cursor: pointer; padding-bottom:5px;  line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top:50%; background-color: RGBA(0,0,0,.3); color: #fff;}
-.arrow:hover { background-color: RGBA(0,0,0,.7);}
+.arrow, .sm-arrow:hover { background-color: RGBA(0,0,0,.7);}
 #prev,
 #sm-prev { left: 20px;}
 #next,
@@ -98,17 +98,15 @@
 
 
 /*第3部分down-banner*/
-.down-leftarea{width:400px; overflow:hidden; overflow:hidden;}
-.down-banner_bar { float:left; position:relative; }
-.down-imgBox{ list-style:none; width:1200px; height:550px;} 
+.down-banner_bar{ width:400px; height:550px; overflow:hidden;float:left; position:relative; }
+.down-imgBox{ list-style:none; width:1100px; height:550px;} 
 .down-imgBox li{float:left; display:inline-block;}
 .down-imgBox li img{width:400px; height:550px;}
 /*包含三张图片，每张400px宽度*/
 
 /*第3部分的动态箭头*/
-.banner_sm {position:relative; text-align:center; }
-.banner_sm .smallbuttons{position:absolute; width:100%; bottom: 10px;}
-.banner_sm .smallbuttons span {
+.smallbuttons{position:absolute; width:100%; bottom: 10px;text-align:center;}
+.smallbuttons span {
     display: inline-block;
     width: 10px;
     height: 10px;
