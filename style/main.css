@@ -99,7 +99,7 @@
 
 /*第3部分down-banner*/
 .down-banner_bar{ width:400px; height:550px; overflow:hidden;float:left; position:relative; }
-.down-imgBox{ list-style:none; width:1100px; height:550px;} 
+.down-imgBox{left:0; list-style:none; width:1200px; height:550px;} 
 .down-imgBox li{float:left; display:inline-block;}
 .down-imgBox li img{width:400px; height:550px;}
 /*包含三张图片，每张400px宽度*/

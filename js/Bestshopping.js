@@ -5,6 +5,11 @@ var list = document.getElementById('list');
 var prev = document.getElementById('prev');
 
 
+var smpics = document.getElementById("smallpics");
+var smnext = document.getElementById('sm-next');
+var smlist = document.getElementById('list');
+var smprev = document.getElementById('sm-prev');
+
 function animate(offset){
 	//alert(list.offsetLeft);
 	//alert("old"+list.style.left);
@@ -122,5 +127,6 @@ var timer = window.setInterval(animate(810),3000)
 container.mouseover = function (){clearInterval(timer);};
 container.mouseout = function (){timer = setInterval(animate(810),3000)};
 */
+
 
 // JavaScript Document
