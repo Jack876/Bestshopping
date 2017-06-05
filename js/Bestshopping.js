@@ -41,13 +41,16 @@ smcontainer.onmouseout = function (){automoving = setInterval(snext,3000);} //�
 //需要补全按钮对应和变色
 
 
+
+
+
+
 //顶部的滚动图片
 function moving(){timer = setInterval(snext,3000);}
 smcontainer.onmouseout = moving;
 
-
 smcontainer.onclick = function (){clearInterval(timer);}
-moving();*/
+moving();
 
 function animate(offset){
 	//alert(list.offsetLeft);
