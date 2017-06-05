@@ -21,7 +21,7 @@ smprev.onclick = function prev (){
 	}
 
 /*第3部分 定义自动向右滚动图片的函数，等同于右箭头*/
-var snext = function (){
+var smnext_f = function (){
 	if (parseInt(smlist.style.left) >= 0){
 		smlist.style.left = "-800px";
 		}
@@ -31,12 +31,18 @@ var snext = function (){
 	}
 	
 /*第3部分 右箭头点击引发的函数，自动滚动与停止*/
- smnext.onclick = snext;
-automoving = setInterval(snext,3000);  
+ smnext.onclick = smnext_f;
+automoving = setInterval(smnext_f,3000);  
 //smcontainer.onclick = function(){clearInterval(automoving);} //有效果
 smcontainer.onmouseenter = function(){clearInterval(automoving);} //有效果
-//smcontainer.onclick = function(){alert('哈哈，还是没解决！');}
-smcontainer.onmouseleave = function (){automoving = setInterval(snext,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
+//smcontainer.onmouseenter = function(){alert('哈哈，还是没解决！');}
+smcontainer.onmouseleave = function (){automoving = setInterval(smnext_f,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
+
+/*function moving(){timer = setInterval(snext,3000);}
+smcontainer.onmouseout = moving;
+
+smcontainer.onclick = function (){clearInterval(timer);}
+moving();*/
 
 //需要补全按钮对应和变色
 
@@ -46,11 +52,7 @@ smcontainer.onmouseleave = function (){automoving = setInterval(snext,3000);} //
 
 
 //顶部的滚动图片
-function moving(){timer = setInterval(snext,3000);}
-smcontainer.onmouseout = moving;
 
-smcontainer.onclick = function (){clearInterval(timer);}
-moving();
 
 function animate(offset){
 	//alert(list.offsetLeft);
