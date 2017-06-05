@@ -99,7 +99,7 @@
 
 /*第3部分down-banner*/
 .down-banner_bar{ width:400px; height:550px; overflow:hidden;float:left; position:relative; }
-.down-imgBox{ left:30px; list-style:none; width:1200px; height:550px;position:absolute;} 
+.down-imgBox{ list-style:none; width:1200px; height:550px;position:absolute;} 
 .down-imgBox li{float:left; display:inline-block;}
 .down-imgBox li img{width:400px; height:550px;}
 /*包含三张图片，每张400px宽度*/
@@ -160,10 +160,11 @@ left top no-repeat;float:left;}
 .shopItem_smImg img{width:200px; height:170px;}
 .shopItem_text{ width:200px; height:29px;float:left; text-align:center; }
 .shopItem_text p{color:#ff7300;}
-.shopItem_text h3{font-family:"Microsoft YaHei","微软雅黑"; font-size:16px; font-weight:normal; color:#0CF; line-height:30px;}
+.shopItem_text h3{font-family:"Microsoft YaHei","微软雅黑"; font-size:16px; font-weight:bold; color:#39F; line-height:30px;}
 
 /*底部*/
-.footer{ font-size:15px; text-align:center; background-color:#D4D4D4; line-height:24px; padding:30px 0; }
+.footer{ font-size:15px; text-align:center; line-height:24px; padding:30px 0; }
+/*background-color:#D4D4D4;*/ 
 .footer i{ font-style:normal; margin:0 5px;}
 .footer a{ color:#000;}
 .footer a:hover{color:#F60;}
