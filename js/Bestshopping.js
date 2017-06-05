@@ -49,11 +49,6 @@ smcontainer.onmouseout = moving;
 smcontainer.onclick = function (){clearInterval(timer);}
 moving();*/
 
-//function test (){alert('哈哈,我是老熊猫！');}
-//var tt= setInterval(test,3000);
-//window.onclick = function (){clearInterval(tt);};
-
-
 function animate(offset){
 	//alert(list.offsetLeft);
 	//alert("old"+list.style.left);
