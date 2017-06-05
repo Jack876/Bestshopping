@@ -37,7 +37,7 @@ automoving = setInterval(snext,3000);
 //smcontainer.onclick = function(){clearInterval(automoving);} //正确，有效果
 smcontainer.onmouseover = function(){clearInterval(automoving);} //正确，有效果
 //smcontainer.onclick = function(){alert('哈哈，还是没解决！');}
-smcontainer.onmouseout = function (){setInterval(snext,3000);} //图像可以停止运动，但是没发恢复运动
+smcontainer.onmouseout = function (){automoving = setInterval(snext,3000);} //图像可以停止运动，但是没发恢复运动
 //smcontainer.onmouseout = function(){alert('哈哈，还是没解决！');} //有效果
 
 /*function play(){
