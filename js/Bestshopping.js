@@ -39,23 +39,7 @@ smcontainer.onmouseover = function(){clearInterval(automoving);} //有效果
 //smcontainer.onclick = function(){alert('哈哈，还是没解决！');}
 smcontainer.onmouseout = function (){automoving = setInterval(snext,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
 
-/*function play(){
-        timer=setInterval(function(){
-          next.onclick();
-        },2000);
-      }
-function stop(){
-        clearInterval(timer);
-      }
-      container.onmouseover=stop;
-      container.onmouseout=play;
-      play();*/
 
-
-/*
-
-
-//
 
 function moving(){timer = setInterval(snext,3000);}
 smcontainer.onmouseout = moving;
