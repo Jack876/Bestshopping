@@ -41,6 +41,7 @@ smcontainer.onmouseout = function (){automoving = setInterval(snext,3000);} //�
 
 
 
+//顶部的滚动图片
 function moving(){timer = setInterval(snext,3000);}
 smcontainer.onmouseout = moving;
 
