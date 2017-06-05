@@ -34,10 +34,10 @@ var snext = function (){
 /*第3部分 右箭头点击引发的函数*/
  smnext.onclick = snext;
 automoving = setInterval(snext,3000);  
-//smcontainer.onclick = function(){clearInterval(automoving);} //正确，有效果
-smcontainer.onmouseover = function(){clearInterval(automoving);} //正确，有效果
+//smcontainer.onclick = function(){clearInterval(automoving);} //有效果
+smcontainer.onmouseover = function(){clearInterval(automoving);} //有效果
 //smcontainer.onclick = function(){alert('哈哈，还是没解决！');}
-smcontainer.onmouseout = function (){automoving = setInterval(snext,3000);} //图像可以停止运动，但是没发恢复运动
+smcontainer.onmouseout = function (){automoving = setInterval(snext,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
 //smcontainer.onmouseout = function(){alert('哈哈，还是没解决！');} //有效果
 
 /*function play(){
