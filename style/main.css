@@ -111,7 +111,7 @@
     width: 10px;
     height: 10px;
     border-radius: 10px;
-    background-color: #F00;
+    background-color: #999;
     border: 1px solid rgba(255,255,255,.3);
     margin: 0 10px;
     text-align: center;
@@ -119,8 +119,8 @@
 }
 
 .smallbuttons .current {
-    background-color: #F00;
-    border: 1px solid rgba(255,255,255,.3);
+    background-color: #F60;
+    border: 1px solid #FFF;
     }
 
 /*商品标题*/

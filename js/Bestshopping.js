@@ -13,13 +13,27 @@ var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("sp
 
 
 /*第3部分图片左右箭头*/
-smprev.onclick = function prev (){
+  /*第3部分图片左箭头点击 图片移动函数*/
+
+function prev (){
 		if (parseInt(smlist.style.left) <= -800){
 		smlist.style.left = "0";
 		}
 		else {
 			smlist.style.left = parseInt(smlist.style.left) - 400 + "px";
 			}
+	}
+  
+  /*第3部分图片左箭头点击 图片移动+按钮颜色对应变化*/
+smprev.onclick = function (){
+	if(index == 3){
+		index = 1;
+		}
+	else {
+		index += 1;
+		}
+	smshowButton();
+	prev;
 	}
 
 /*第3部分 定义自动向右滚动图片的函数，等同于右箭头*/
@@ -33,7 +47,16 @@ var smnext_f = function (){
 	}
 	
 /*第3部分 右箭头点击引发的函数，自动滚动与停止*/
- smnext.onclick = smnext_f;
+ smnext.onclick = function (){
+	 if(index == 1){
+		index = 3;
+		}
+	else {
+		index -= 1;
+		}
+	smshowButton();
+	smnext_f;
+	};
 automoving = setInterval(smnext_f,3000);  
 //smcontainer.onclick = function(){clearInterval(automoving);} //有效果
 smcontainer.onmouseenter = function(){clearInterval(automoving);} //有效果
@@ -47,16 +70,16 @@ smcontainer.onclick = function (){clearInterval(timer);}
 moving();*/
 
 //需要补全按钮对应和变色
-/*
+
 
 function smshowButton() {
 	for (var i = 0; i < smbuttons.length; i++) {
-		 smbuttons[i].className = "";
+		 smbuttons[i].class = "";
 	}
-	smbuttons[index-1].className = "current";
-	//alert(buttons[index-1].className);
-}
-
+	smbuttons[index-1].class = "current";
+	}
+	
+/*
 prev.onclick = function(){
 	if(index == 4){
 		index = 1;
