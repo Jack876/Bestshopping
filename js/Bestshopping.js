@@ -9,7 +9,6 @@ var smcontainer = document.getElementById('smcontainer');
 var smnext = document.getElementById('sm-next');
 var smlist = document.getElementById('smlist');
 var smprev = document.getElementById('sm-prev');
-var roundbuttons = document.getElementById("roundbuttons").getElementsByTagName("span");
 var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("span");
 
 
@@ -49,11 +48,12 @@ moving();*/
 
 //需要补全按钮对应和变色
 /*
-function showButton() {
-	for (var i = 0; i < buttons.length; i++) {
-		 buttons[i].className = "";
+
+function smshowButton() {
+	for (var i = 0; i < smbuttons.length; i++) {
+		 smbuttons[i].className = "";
 	}
-	buttons[index-1].className = "active";
+	smbuttons[index-1].className = "current";
 	//alert(buttons[index-1].className);
 }
 

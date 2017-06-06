@@ -118,6 +118,18 @@
     cursor: pointer;
 }
 
+.smallbuttons .current {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #F00;
+    border: 1px solid rgba(255,255,255,.3);
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
 /*商品标题*/
 .shopTit{height:44px; font-family:"Microsoft YaHei","微软雅黑";line-height:44px; margin-bottom:15px;}
 .shopTit h3{font-size:24px; float:left; font-weight:normal; padding-left:15px;}
