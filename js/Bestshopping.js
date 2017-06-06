@@ -10,6 +10,9 @@ var smnext = document.getElementById('sm-next');
 var smlist = document.getElementById('smlist');
 var smprev = document.getElementById('sm-prev');
 var roundbuttons = document.getElementById("roundbuttons").getElementsByTagName("span");
+var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("span");
+
+
 /*第3部分图片左右箭头*/
 smprev.onclick = function prev (){
 		if (parseInt(smlist.style.left) <= -800){
@@ -45,6 +48,30 @@ smcontainer.onclick = function (){clearInterval(timer);}
 moving();*/
 
 //需要补全按钮对应和变色
+/*
+function showButton() {
+	for (var i = 0; i < buttons.length; i++) {
+		 buttons[i].className = "";
+	}
+	buttons[index-1].className = "active";
+	//alert(buttons[index-1].className);
+}
+
+prev.onclick = function(){
+	if(index == 4){
+		index = 1;
+		}
+	else {
+		index += 1;
+		}
+	showButton();
+	animate(-810)
+	}*/
+	
+
+
+
+
 
 
 
@@ -106,8 +133,6 @@ function showButton() {
                 }
                 buttons[index - 1].className = 'on';
 } */
-
-
 
 prev.onclick = function(){
 	if(index == 4){
