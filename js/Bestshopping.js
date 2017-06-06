@@ -58,7 +58,7 @@ function smshowButton() {
 	
 	}
 
- smnext.onclick = function (){
+  var movingnext = function (){
 	 if(smindex == 1){
 		smindex = 3;
 		}
@@ -74,7 +74,9 @@ function smshowButton() {
 	smshowButton();
 	smnext_f();
 	};
-automoving = setInterval(smnext_f,3000);  
+	
+smnext.onclick = movingnext; 
+automoving = setInterval(movingnext,3000);  
 //smcontainer.onclick = function(){clearInterval(automoving);} //有效果
 smcontainer.onmouseenter = function(){clearInterval(automoving);} //有效果
 //smcontainer.onmouseenter = function(){alert('哈哈，还是没解决！');}
@@ -103,11 +105,6 @@ prev.onclick = function(){
 	animate(-810)
 	}*/
 	
-
-
-
-
-
 
 
 
