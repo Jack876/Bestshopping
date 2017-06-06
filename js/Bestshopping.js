@@ -43,9 +43,19 @@ smprev.onclick = function (){
 	smprev_f();
 	}
 	
-/*第3部分 右箭头点击引发的函数*/
+/*第3部分 定义函数 点击右箭头图片向右滚动，不包括按钮*/
+function smnext_f(){
+	if (parseInt(smlist.style.left) >= 0){
+		smlist.style.left = "-800px";
+		}
+		else {
+			smlist.style.left = parseInt(smlist.style.left) + 400 + "px";		
+			}
+}	
+
+/*第3部分 定义函数 右箭头点击，图片右滚动，按钮对应变色*/
 var smindex =1;
-var movingnext = function (){
+function movingright(){
 	 if(smindex == 1){
 		smindex = 3;
 		}
@@ -62,20 +72,14 @@ var movingnext = function (){
 	smnext_f();
 	};
 
-/*第3部分 自动向右滚动图片的函数，等同于右箭头*/
-var smnext_f = function (){
-	if (parseInt(smlist.style.left) >= 0){
-		smlist.style.left = "-800px";
-		}
-		else {
-			smlist.style.left = parseInt(smlist.style.left) + 400 + "px";		
-			}
-	}
-	
-/*第3部分 图片自动滚动与停止*/
-smnext.onclick = movingnext; 
-automoving = setInterval(movingnext,3000);  
+/*点击右箭头，触发动作*/
+smnext.onclick = movingright; 
+
+/*第3部分 图片自动滚动，相当于自动点击右箭头*/
+automoving = setInterval(movingright,3000);  
 //smcontainer.onclick = function(){clearInterval(automoving);} //有效果
+
+/*第3部分 鼠标的进入与移开，触发图片自动滚动停止与重新运行*/
 smcontainer.onmouseenter = function(){clearInterval(automoving);} //有效果
 //smcontainer.onmouseenter = function(){alert('哈哈，还是没解决！');}
 smcontainer.onmouseleave = function (){automoving = setInterval(smnext_f,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
