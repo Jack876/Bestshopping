@@ -15,7 +15,7 @@ var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("sp
 /*第3部分图片左右箭头*/
   /*第3部分图片左箭头点击 图片移动函数*/
 
-function prev (){
+function smprev (){
 		if (parseInt(smlist.style.left) <= -800){
 		smlist.style.left = "0";
 		}
@@ -26,14 +26,14 @@ function prev (){
   
   /*第3部分图片左箭头点击 图片移动+按钮颜色对应变化*/
 smprev.onclick = function (){
-	if(index == 3){
-		index = 1;
+	if(smindex == 3){
+		smindex = 1;
 		}
 	else {
-		index += 1;
+		smindex += 1;
 		}
 	smshowButton();
-	prev;
+	smprev();
 	}
 
 /*第3部分 定义自动向右滚动图片的函数，等同于右箭头*/
@@ -47,15 +47,32 @@ var smnext_f = function (){
 	}
 	
 /*第3部分 右箭头点击引发的函数，自动滚动与停止*/
+var smindex =1;
+function smshowButton() {
+	
+	for (var i = 0; i < smbuttons.length; i++) {
+		 smbuttons[i].className = "off";
+	}
+	smbuttons[smindex-1].className = "current";
+	//alert(smbuttons[index-1].className);
+	
+	}
+
  smnext.onclick = function (){
-	 if(index == 1){
-		index = 3;
+	 if(smindex == 1){
+		smindex = 3;
 		}
-	else {
+	/*else {
 		index -= 1;
+		}*/
+		else if (smindex == 2){
+		smindex = 1;
 		}
+		else
+		{smindex = 2;}
+		alert(smindex);
 	smshowButton();
-	smnext_f;
+	smnext_f();
 	};
 automoving = setInterval(smnext_f,3000);  
 //smcontainer.onclick = function(){clearInterval(automoving);} //有效果
@@ -72,12 +89,7 @@ moving();*/
 //需要补全按钮对应和变色
 
 
-function smshowButton() {
-	for (var i = 0; i < smbuttons.length; i++) {
-		 smbuttons[i].class = "";
-	}
-	smbuttons[index-1].class = "current";
-	}
+
 	
 /*
 prev.onclick = function(){
