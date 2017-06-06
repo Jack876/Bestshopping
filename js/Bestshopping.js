@@ -53,10 +53,8 @@ moving();*/
 
 //顶部的滚动图片
 
-
 function animate(offset){
 	//alert(list.offsetLeft);
-	//alert("old"+list.style.left);
 	animated = true;
 	var newleft = parseInt(list.style.left) + offset;
 	list.style.left = parseInt(list.style.left) + offset + "px";
@@ -81,9 +79,7 @@ function animate(offset){
 		}
 	//alert("new"+list.style.left);
 	//alert("new"+list.offsetLeft);
-	//list.style.left = "-810px";
 	//alert(list.offsetLeft);
-	//list.style.left = "-810px"
 	go();
 	}	
 
@@ -100,7 +96,6 @@ function showButton() {
 	buttons[index-1].className = "active";
 	//alert(buttons[index-1].className);
 }
-
 
 /*function showButton() {
                 for (var i = 0; i < buttons.length; i++) {
@@ -121,7 +116,6 @@ prev.onclick = function(){
 	else {
 		index += 1;
 		}
-	//alert(index);
 	showButton();
 	animate(-810)
 	}
