@@ -94,13 +94,20 @@ smcontainer.onmouseout = moving;
 smcontainer.onclick = function (){clearInterval(timer);}
 moving();*/
 
-//需要补全按钮对应和变色
+//点击按钮 函数和变色
+/*function smbuttons_f(){
+		if (smbuttons) 
+		
+		
+		(parseInt(smlist.style.left) <= -800){
+		smlist.style.left = "0";
+		}
+		else {
+			smlist.style.left = parseInt(smlist.style.left) - 400 + "px";
+			}
+	}*/
 
-
-
-	
-/*
-prev.onclick = function(){
+/* prev.onclick = function(){
 	if(index == 4){
 		index = 1;
 		}
@@ -110,10 +117,24 @@ prev.onclick = function(){
 	showButton();
 	animate(-810)
 	}*/
+
+
+for (var i = 0; i < smbuttons.length; i++){
+	smbuttons[i].onclick = function(){
+		if (this.className == 'current') {
+			return;
+			}
+		var mysmindex = parseInt(this.getAttribute('smindex'));
+		var offset = -400*(mysmindex - smindex);
+		smlist.style.left = parseInt(smlist.style.left) + offset + "px";
+		smindex= mysmindex;
+		smshowButton();
+		
+	};
+}
 	
-
-
-
+	
+	
 
 
 //顶部的滚动图片
@@ -224,7 +245,6 @@ function stop(){
 
 /*
 var timer = window.setInterval(animate(810),3000)
-
 container.mouseover = function (){clearInterval(timer);};
 container.mouseout = function (){timer = setInterval(animate(810),3000)};
 */
