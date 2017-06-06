@@ -135,7 +135,7 @@ left top no-repeat;float:left;}
 
 /*商品列表-右侧*/
 .shopList{margin-bottom:15px; border-top: #0CF solid 2px; }
-.FlashshopList{border-top: #F90 solid 2px; border-down: #F90 solid 12px;}
+.FlashshopList{height:560px; border-top: #F90 solid 2px; border-bottom : #F90 solid 2px;}
 
 .shopList_top, 
 .shopList_sm{margin-right:-4px;}
