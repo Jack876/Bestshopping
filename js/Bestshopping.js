@@ -12,7 +12,7 @@ var smprev = document.getElementById('sm-prev');
 var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("span");
 
 /*第3部分图片左右箭头*/
-  /*第3部分图片左箭头点击 图片移动函数*/
+/*第3部分 定义函数 图片左箭头点击的图片移动*/
 function smprev_f(){
 		if (parseInt(smlist.style.left) <= -800){
 		smlist.style.left = "0";
@@ -22,7 +22,7 @@ function smprev_f(){
 			}
 	}
   
-/*第3部分 按钮变色函数*/
+/*第3部分 定义按钮变色函数*/
 function smshowButton() {	
 	for (var i = 0; i < smbuttons.length; i++) {
 		 smbuttons[i].className = "off";
@@ -31,8 +31,8 @@ function smshowButton() {
 	//alert(smbuttons[index-1].className);
 }
  
-/*第3部分 左箭头点击 图片移动+按钮颜色对应变化*/
-smprev.onclick = function (){
+/*第3部分 定义左箭头点击函数 包括图片移动+按钮颜色对应变化*/
+function movingleft(){
 	if(smindex == 3){
 		smindex = 1;
 		}
@@ -42,6 +42,10 @@ smprev.onclick = function (){
 	smshowButton();
 	smprev_f();
 	}
+	
+/*第3部分 左箭头点击，触发函数动作*/
+smprev.onclick = movingleft;
+	
 	
 /*第3部分 定义函数 点击右箭头图片向右滚动，不包括按钮*/
 function smnext_f(){
@@ -75,14 +79,14 @@ function movingright(){
 /*点击右箭头，触发动作*/
 smnext.onclick = movingright; 
 
-/*第3部分 图片自动滚动，相当于自动点击右箭头*/
-automoving = setInterval(movingright,3000);  
+/*第3部分 图片自动滚动，相当于自动点击左箭头*/
+automoving = setInterval(movingleft,3000);  
 //smcontainer.onclick = function(){clearInterval(automoving);} //有效果
 
 /*第3部分 鼠标的进入与移开，触发图片自动滚动停止与重新运行*/
 smcontainer.onmouseenter = function(){clearInterval(automoving);} //有效果
 //smcontainer.onmouseenter = function(){alert('哈哈，还是没解决！');}
-smcontainer.onmouseleave = function (){automoving = setInterval(smnext_f,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
+smcontainer.onmouseleave = function (){automoving = setInterval(movingleft,3000);} //必须加上automoving=,相当于重新赋值，否则会出现多个定时器，出现混乱
 
 /*function moving(){timer = setInterval(snext,3000);}
 smcontainer.onmouseout = moving;
