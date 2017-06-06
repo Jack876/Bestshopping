@@ -11,7 +11,6 @@ var smlist = document.getElementById('smlist');
 var smprev = document.getElementById('sm-prev');
 var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("span");
 
-
 /*第3部分图片左右箭头*/
   /*第3部分图片左箭头点击 图片移动函数*/
 
@@ -24,7 +23,18 @@ function smprev_f(){
 			}
 	}
   
-  /*第3部分图片左箭头点击 图片移动+按钮颜色对应变化*/
+ /*第3部分 按钮变色函数*/
+ function smshowButton() {
+	
+	for (var i = 0; i < smbuttons.length; i++) {
+		 smbuttons[i].className = "off";
+	}
+	smbuttons[smindex-1].className = "current";
+	//alert(smbuttons[index-1].className);
+	
+	}
+ 
+   /*第3部分图片左箭头点击 图片移动+按钮颜色对应变化*/
 smprev.onclick = function (){
 	if(smindex == 3){
 		smindex = 1;
@@ -48,15 +58,7 @@ var smnext_f = function (){
 	
 /*第3部分 右箭头点击引发的函数，自动滚动与停止*/
 var smindex =1;
-function smshowButton() {
-	
-	for (var i = 0; i < smbuttons.length; i++) {
-		 smbuttons[i].className = "off";
-	}
-	smbuttons[smindex-1].className = "current";
-	//alert(smbuttons[index-1].className);
-	
-	}
+
 
   var movingnext = function (){
 	 if(smindex == 1){
