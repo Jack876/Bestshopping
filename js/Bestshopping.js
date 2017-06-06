@@ -15,7 +15,7 @@ var smbuttons = document.getElementById("roundbuttons").getElementsByTagName("sp
 /*第3部分图片左右箭头*/
   /*第3部分图片左箭头点击 图片移动函数*/
 
-function smprev (){
+function smprev_f(){
 		if (parseInt(smlist.style.left) <= -800){
 		smlist.style.left = "0";
 		}
@@ -33,7 +33,7 @@ smprev.onclick = function (){
 		smindex += 1;
 		}
 	smshowButton();
-	smprev();
+	smprev_f();
 	}
 
 /*第3部分 定义自动向右滚动图片的函数，等同于右箭头*/
@@ -70,7 +70,7 @@ function smshowButton() {
 		}
 		else
 		{smindex = 2;}
-		alert(smindex);
+		//alert(smindex);
 	smshowButton();
 	smnext_f();
 	};
