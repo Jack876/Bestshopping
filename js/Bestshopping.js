@@ -95,18 +95,6 @@ smcontainer.onclick = function (){clearInterval(timer);}
 moving();*/
 
 //点击按钮 函数和变色
-/*function smbuttons_f(){
-		if (smbuttons) 
-		
-		
-		(parseInt(smlist.style.left) <= -800){
-		smlist.style.left = "0";
-		}
-		else {
-			smlist.style.left = parseInt(smlist.style.left) - 400 + "px";
-			}
-	}*/
-
 /* prev.onclick = function(){
 	if(index == 4){
 		index = 1;
@@ -134,9 +122,6 @@ for (var i = 0; i < smbuttons.length; i++){
 }
 	
 	
-	
-
-
 //顶部的滚动图片
 
 function animate(offset){

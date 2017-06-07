@@ -151,8 +151,7 @@ left top no-repeat;float:left;}
 .shop_img{height:290px;}
 .shop_img img{width: 100%; height:290px; display:block;}
 .shop_item h3 { margin-top:5px; margin-bottom:5px; font-size:16px;color:#FF7300; line-height:21px;}
-.shop_item h4 {font-size:14px;color:#39F; }
-
+h4 {font-size:13px;color:#39F; }
 
 /*新增加的*/
 .new-shop_item{width:252px; height:315px; text-align: center; float:left;}
